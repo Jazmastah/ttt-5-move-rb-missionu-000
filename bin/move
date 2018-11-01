@@ -8,5 +8,5 @@ puts "Where would you like to go?"
 board =  [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 user_input = gets.strip
 index = input_to_index(user_input)
-modified_board = move(board , index, a_value)
+modified_board = move(board , index)
 puts display_board(modified_board)
